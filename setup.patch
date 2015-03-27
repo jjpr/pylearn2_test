@@ -1,7 +1,7 @@
-diff --git a/setup.py b/setup.py
+diff --git setup.py setup.py
 index 831864b..6c98cc2 100644
---- a/setup.py
-+++ b/setup.py
+--- setup.py
++++ setup.py
 @@ -76,8 +76,6 @@ setup(
      description='A machine learning library built on top of Theano.',
      license='BSD 3-clause license',

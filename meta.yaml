@@ -13,7 +13,7 @@ requirements:
     - cython 0.22
     - setuptools
     - matplotlib
-    - theano >=0.7.0
+    - theano
     - pyyaml
     - pil
 
@@ -21,7 +21,7 @@ requirements:
     - python
     - cython 0.22
     - matplotlib
-    - theano >=0.7.0
+    - theano
     - pyyaml
     - pil
 
