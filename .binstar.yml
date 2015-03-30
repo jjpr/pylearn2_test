@@ -35,8 +35,8 @@ package: pylearn2
 #===============================================================================
 
 ## Run before the script
-# before_script:
-#   - echo "before_script!"
+before_script:
+  - yum install -y patch
 ## Put your main computations here!  
 script:
   - conda build .
