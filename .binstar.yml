@@ -35,8 +35,8 @@ package: pylearn2
 #===============================================================================
 
 ## Run before the script
-before_script:
-  - sudo yum install -y patch
+# before_script:
+#   - sudo yum install -y patch
 ## Put your main computations here!  
 script:
   - conda build .
@@ -65,3 +65,5 @@ script:
 ## e.g. conda is an alias for /opt/anaconda/conda-bld/<os-arch>/*.tar.bz2
 build_targets:
   - conda
+
+docker_image: continuumio/anaconda
