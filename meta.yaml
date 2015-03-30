@@ -3,9 +3,7 @@ package:
   version: 2
 
 source:
-  git_url: https://github.com/lisa-lab/pylearn2.git
-  patches: 
-    - setup.patch
+  git_url: https://github.com/jjpr/pylearn2.git
 
 requirements:
   build:

@@ -66,4 +66,3 @@ script:
 build_targets:
   - conda
 
-docker_image: continuumio/anaconda
